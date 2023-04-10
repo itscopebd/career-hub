@@ -11,3 +11,6 @@
 .bg{
     @apply bg-[#F9F9FF];
 }
+.text-color{
+    @apply text-[#757575];
+}

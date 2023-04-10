@@ -5,3 +5,9 @@
 .my-container{
     @apply w-9/12 mx-auto;
 }
+.btn{
+    @apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] py-4 px-5 text-white text-xl rounded-lg leading-5;
+}
+.bg{
+    @apply bg-[#F9F9FF];
+}

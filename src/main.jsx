@@ -8,6 +8,7 @@ import JobDetails from './components/JobDetails/JobDetails';
 import ApplyedJobs from './components/ApplyedJobs/ApplyedJobs';
 import MarkChart from './components/Chart/MarkChart';
 import ErrorPages from './components/ErrorPages';
+import Blog from './components/Blog/Blog';
 const router= createBrowserRouter([
   {
     path:"/",
@@ -30,6 +31,10 @@ const router= createBrowserRouter([
       {
         path:"/statistics",
         element:<MarkChart/>
+      },
+      {
+        path:"/blog",
+        element:<Blog></Blog>
       }
     ]
   }

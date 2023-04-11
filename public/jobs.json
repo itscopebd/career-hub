@@ -1,7 +1,7 @@
 [
     {
         "id":"01",
-        "CompanyLogo":"../img/Logo/google.png",
+        "CompanyLogo":"/img/google.png",
         "JobTitle":"Technical Database Engineer",
         "CompanyName":"Google LLC",
         "jobNature":["Remote","Full Time"],
@@ -17,7 +17,7 @@
 
     {
         "id":"02",
-        "CompanyLogo":"../img/Logo/netflix.png",
+        "CompanyLogo":"/img/netflix.png",
         "JobTitle":"Senior Product Designer",
         "CompanyName":"Netflix",
         "jobNature":["Onsite","Full Time"],
@@ -33,7 +33,7 @@
     },
     {
         "id":"03",
-        "CompanyLogo":"../img/Logo/tesla.png",
+        "CompanyLogo":"/img/tesla.png",
         "JobTitle":"Software Engineer",
         "CompanyName":"Tesla",
         "jobNature":["Remote","Full Time"],
@@ -47,7 +47,7 @@
     },
     {
         "id":"04",
-        "CompanyLogo":"../img/Logo/Group.png",
+        "CompanyLogo":"/img/Group.png",
         "JobTitle":"Motion Graphic Designer",
         "CompanyName":"Airbnb LLC",
         "jobNature":["Onsite","Full Time"],

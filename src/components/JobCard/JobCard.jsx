@@ -16,8 +16,8 @@ const JobCard = (props) => {
                 }
             </div>
             <div className='flex gap-5 mb-5'>
-                <h4 className='flex items-center gap-2 text-color text-xl'> <img src="../../../public/img/Icons/LocationIcon.png" alt="" /> {Location?.natinality}</h4>
-                <h4 className='flex items-center gap-2 text-color text-xl'> <img src="../../../public/img/Icons/Frame.png" alt="" /> Salary: {Salary}</h4>
+                <h4 className='flex items-center gap-2 text-color text-xl'> <img src="/img/LocationIcon.png" alt="" /> {Location?.natinality}</h4>
+                <h4 className='flex items-center gap-2 text-color text-xl'> <img src="/img/Frame.png" alt="" /> Salary: {Salary}</h4>
             </div>
             <Link to={`/jobdetails/${id}`}><button className='btn'>View Details</button></Link>
         </div>

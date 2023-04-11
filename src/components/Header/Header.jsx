@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -12,9 +12,9 @@ const Header = () => {
                 </div>
                 <nav>
                     <ul className='flex gap-10 items-center'>
-                        <li>Home</li>
+                        <li> <NavLink to="/">Home</NavLink> </li>
                         <li>Statistics</li>
-                        <li>Applied Jobs</li>
+                        <li> <NavLink to="/applyedJobs">Applied Jobs</NavLink> </li>
                         <li>Blog</li>
 
                     </ul>

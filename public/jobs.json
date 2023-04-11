@@ -5,14 +5,14 @@
         "JobTitle":"Technical Database Engineer",
         "CompanyName":"Google LLC",
         "jobNature":["Remote","Full Time"],
-        "Location":["Dhaka, Bangladesh","Dhanmondi 32, Sukrabad"],
+        "Location":{"natinality":"Dhaka, Bangladesh","village":"Dhanmondi 32, Sukrabad"},
         "Salary":"50k-70k",
         "JobDescription":"A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
 
         "JobResponsibility":" Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
         "EducationalRequirements":"Bachelor degree to complete any reputational university.",
         "Experiences":"2-3 Years in this field.",
-        "contactInformation":["01750-00 00 00","info@gmail.com"]
+        "contactInformation":{"phone":"01750-00 00 00","email":"info@gmail.com"}
     },
 
     {
@@ -21,7 +21,7 @@
         "JobTitle":"Senior Product Designer",
         "CompanyName":"Netflix",
         "jobNature":["Onsite","Full Time"],
-        "Location":["Dhaka, Bangladesh","Mohammadpur"],
+        "Location":{"natinality":"Dhaka, Bangladesh","village":"Mohammadpur"},
         "Salary":"100k-120k",
 
         "JobDescription":"Product Designer responsibilities include defining product specifications, creating digital or print drawings and designing fully-functional products. To be successful in this role, you should have an eye for color and shape and be able to translate requirements into practical product features.",
@@ -29,7 +29,7 @@
         "JobResponsibility":"Product Designer responsibilities include defining product specifications, creating digital or print drawings and designing fully-functional products. To be successful in this role, you should have an eye for color and shape and be able to translate requirements into practical product features.",
         "EducationalRequirements":"Bachelor degree to complete any reputational university.",
         "Experiences":"2 Years in this field.",
-        "contactInformation":["01750-909090","eng@gmail.com"]
+        "contactInformation":{"phone":"01750-909090","email":"eng@gmail.com"}
     },
     {
         "id":"03",
@@ -37,13 +37,13 @@
         "JobTitle":"Software Engineer",
         "CompanyName":"Tesla",
         "jobNature":["Remote","Full Time"],
-        "Location":["Dhaka, Bangladesh","Golshan Block C"],
+        "Location":{"natinality":"Dhaka, Bangladesh","village":"Golshan Block C"},
         "Salary":"40k-60k",
         "JobDescription":"Proven work experience as a Software Engineer or Software Developer.Ability to develop software in Java, Ruby on Rails, C++, or other programming languages.Excellent knowledge of relational databases, SQL, and ORM technologies (JPA2, Hibernate).Experience developing web applications using at least one popular web framework (JSF, Wicket, GWT, Spring MVC).",
         "JobResponsibility":"Execute full software development life cycle (SDLC). Develop flowcharts, layouts, and documentation to identify requirements and solutions. Write well-designed, testable code. Produce specifications and determine operational feasibility. Integrate software components into a fully functional software system. Develop software verification plans and quality assurance procedures. Document and maintain software functionality.",
         "EducationalRequirements":"Bachelor degree to complete any reputational university.",
         "Experiences":"4 Years in this field.",
-        "contactInformation":["01750-987654","enginnerinfo@gmail.com"]
+        "contactInformation":{"phone":"01750-987654","email":"enginnerinfo@gmail.com"}
     },
     {
         "id":"04",
@@ -51,13 +51,13 @@
         "JobTitle":"Motion Graphic Designer",
         "CompanyName":"Airbnb LLC",
         "jobNature":["Onsite","Full Time"],
-        "Location":["Dhaka, Bangladesh","Bonani"],
+        "Location":{"natinality":"Dhaka, Bangladesh","village":"Bonani"},
         "Salary":"80k-110k",
         "JobDescription":"Motion Graphics Designers, sometimes just called motion designers, create artwork for the web, television, or film. They use visual effects, animation and other cinematic techniques to bring life to their creations.",
 
         "JobResponsibility":"Creating and delivering motion graphics for various media. Working with art and creative teams to select audio, video, colors, animation, etc. for graphic design. Editing video footage and adding effects/elements to enhance motion graphics.",
         "EducationalRequirements":"Bachelor degree to complete any reputational university.",
         "Experiences":"3+ Years in this field.",
-        "contactInformation":["01750-788966","tech@gmail.com"]
+        "contactInformation":{"phone":"01750-788966","email":"tech@gmail.com"}
     }
 ]

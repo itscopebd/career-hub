@@ -18,7 +18,7 @@ const HomePage = () => {
 
 const [jobs,setJobs]=useState([]);
 useEffect(()=>{
-fetch("data/jobs.json")
+fetch("jobs.json")
 .then(res=>res.json())
 .then(data=>setJobs(data))
 },[])

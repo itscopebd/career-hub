@@ -1,8 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const JobCard = (props) => {
-    const { CompanyLogo, CompanyName, JobTitle, Salary, jobNature, Location } = props.data;
-
+    const { id,CompanyLogo, CompanyName, JobTitle, Salary, jobNature, Location } = props.data;
 
     return (
         <div className='border-2 border-blue-200 py-8 px-5'>
@@ -16,10 +16,10 @@ const JobCard = (props) => {
                 }
             </div>
             <div className='flex gap-5 mb-5'>
-                <h4 className='flex items-center gap-2 text-color text-xl'> <img src="../../../public/img/Icons/LocationIcon.png" alt="" /> {Location[0]}</h4>
+                <h4 className='flex items-center gap-2 text-color text-xl'> <img src="../../../public/img/Icons/LocationIcon.png" alt="" /> {Location?.natinality}</h4>
                 <h4 className='flex items-center gap-2 text-color text-xl'> <img src="../../../public/img/Icons/Frame.png" alt="" /> Salary: {Salary}</h4>
             </div>
-            <button className='btn'>View Details</button>
+            <Link to={`/jobdetails/${id}`}><button className='btn'>View Details</button></Link>
         </div>
     );
 };

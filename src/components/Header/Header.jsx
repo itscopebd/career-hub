@@ -13,7 +13,7 @@ const Header = () => {
                 <nav>
                     <ul className='flex gap-10 items-center'>
                         <li> <NavLink to="/">Home</NavLink> </li>
-                        <li>Statistics</li>
+                        <li> <NavLink to="/statistics">Statistics</NavLink> </li>
                         <li> <NavLink to="/applyedJobs">Applied Jobs</NavLink> </li>
                         <li>Blog</li>
 

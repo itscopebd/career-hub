@@ -6,10 +6,13 @@ import App from './App';
 import HomePage from './HomePage';
 import JobDetails from './components/JobDetails/JobDetails';
 import ApplyedJobs from './components/ApplyedJobs/ApplyedJobs';
+import MarkChart from './components/Chart/MarkChart';
+import ErrorPages from './components/ErrorPages';
 const router= createBrowserRouter([
   {
     path:"/",
     element:<App></App>,
+    errorElement:<ErrorPages></ErrorPages>,
     children:[
       {
         path:"/",
@@ -23,6 +26,10 @@ const router= createBrowserRouter([
         path:"/applyedJobs",
         element:<ApplyedJobs/>,
         loader:()=>fetch("/jobs.json")
+      },
+      {
+        path:"/statistics",
+        element:<MarkChart/>
       }
     ]
   }

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ApplyedJobCard = (props) => {
-    console.log(props)
+  
     const {id,CompanyName,CompanyLogo,JobTitle,Location,Salary,jobNature}=props.data;
     return (
         <div className='flex gap-5 my-5'>

@@ -15,9 +15,9 @@ const JobCard = (props) => {
                     jobNature.map(jobType => <button className='border-2 border-blue-200 py-1 px-3 rounded-lg text-blue-700'>{jobType}</button>)
                 }
             </div>
-            <div className='flex gap-5 mb-5'>
-                <h4 className='flex items-center gap-2 text-color text-xl'> <img src="/img/LocationIcon.png" alt="" /> {Location?.natinality}</h4>
-                <h4 className='flex items-center gap-2 text-color text-xl'> <img src="/img/Frame.png" alt="" /> Salary: {Salary}</h4>
+            <div className='flex-row md:flex md:gap-5 gap-10 mb-5'>
+                <h4 className='flex items-center gap-2 text-color md:mb-0 mb-3 text-base	md:text-xl'> <img src="/img/LocationIcon.png" alt="" /> {Location?.natinality}</h4>
+                <h4 className='flex items-center gap-2 text-color text-base	md:text-xl'> <img src="/img/Frame.png" alt="" /> Salary: {Salary}</h4>
             </div>
             <Link to={`/jobdetails/${id}`}><button className='btn'>View Details</button></Link>
         </div>

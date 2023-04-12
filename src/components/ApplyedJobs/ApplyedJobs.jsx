@@ -7,54 +7,40 @@ import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 const ApplyedJobs = (props) => {
 
     // const allData = useLoaderData();
-    const applyedJobs = getApplyed();
 
- 
     const [apllyJobs, setApllyJob] = useState([]);
-
-
 
     useEffect(() => {
         fetch("/jobs.json")
             .then(res => res.json())
-            .then(allData => {
+            .then(data => {
+                const applyedJobs = getApplyed();
+                console.log(applyedJobs)
                 if (applyedJobs) {
-                    let carts=[]
-                    for (const id in applyedJobs) {
-                         const checkValue = allData.find(data => data.id == id);
-                         carts.push(checkValue)
-                        
+
+                    const emp = [];
+                    for (const key in applyedJobs) {
+                        const value = data.find(job => job.id == key)
+                        if (value) {
+
+                            emp.push(value)
+                            console.log(value)
+                        }
                     }
-                    setApllyJob(carts)
+                    setApllyJob(emp)
                 }
 
             })
     }, [])
 
 
-const filterData=(value)=>{
-    const filterValue=value.target.value;
-    useEffect(()=>{
-        const checkValue = apllyJobs.map(data => data.jobNature);
-        setApllyJob(checkValue)
-    },[])
-    console.log(apllyJobs)
-}
-
-    // if (applyedJobs) {
-    //     for (const id in applyedJobs) {
-    //         const carts = allData.find(data => data.id == id);
-    //         apllyJob.push(carts)
-    //     }
-    // }
-
     return (
         <>
-<Breadcrumbs title={props}></Breadcrumbs>
+            <Breadcrumbs title={props}></Breadcrumbs>
             <div className='my-container relative overflow-hidden'>
                 <div className='right-0 absolute overflow-hidden'>
                     <div className='text-right my-5 py-2 px-3 border-2 border-blue-400 rounded-lg bg flex justify-between w-32'>
-                        <select className='border-none focus:outline-none w-32' onChange={filterData}>
+                        <select className='border-none focus:outline-none w-32'>
                             <option selected>Filter By</option>
                             <option value="Remote">Remote</option>
                             <option value="On-site">On-site</option>

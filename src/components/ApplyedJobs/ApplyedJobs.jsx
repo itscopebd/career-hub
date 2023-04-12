@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { getApplyed } from '../../../public/fakedb';
 import ApplyedJobCard from '../ApplyedJobCard/ApplyedJobCard';
 import { useLoaderData } from 'react-router-dom';
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 
-const ApplyedJobs = () => {
+const ApplyedJobs = (props) => {
 
     // const allData = useLoaderData();
     const applyedJobs = getApplyed();
@@ -47,11 +48,9 @@ const filterData=(value)=>{
     //     }
     // }
 
-
-    console.log(apllyJobs)
     return (
         <>
-
+<Breadcrumbs title={props}></Breadcrumbs>
             <div className='my-container relative overflow-hidden'>
                 <div className='right-0 absolute overflow-hidden'>
                     <div className='text-right my-5 py-2 px-3 border-2 border-blue-400 rounded-lg bg flex justify-between w-32'>

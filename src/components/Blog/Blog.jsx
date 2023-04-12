@@ -2,8 +2,7 @@ import React from 'react';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 
 const Blog = (props) => {
-    
-    console.log(props)
+
     return (
         <>
         <Breadcrumbs title={props}></Breadcrumbs>

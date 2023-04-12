@@ -5,7 +5,7 @@ const ApplyedJobCard = (props) => {
   
     const {id,CompanyName,CompanyLogo,JobTitle,Location,Salary,jobNature}=props.data;
     return (
-        <div className='flex gap-5 my-5'>
+        <div className='flex gap-5 my-16 border-2 border-blue-300 p-5 '>
         <div className='w-2/12 p-5 bg flex items-center justify-center rounded-lg'>
             <img src={CompanyLogo} alt="" />
         </div>

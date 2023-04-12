@@ -59,5 +59,36 @@
         "EducationalRequirements":"Bachelor degree to complete any reputational university.",
         "Experiences":"3+ Years in this field.",
         "contactInformation":{"phone":"01750-788966","email":"tech@gmail.com"}
+    },
+    {
+        "id":"05",
+        "CompanyLogo":"/img/programming-hero.png",
+        "JobTitle":"SQL Programmer",
+        "CompanyName":"Hero",
+        "jobNature":["Remote","Full Time"],
+        "Location":{"natinality":"Dhaka, Bangladesh","village":"Bonani"},
+        "Salary":"40k-70k",
+        "JobDescription":"SQL is a declarative programming language that is used in many relational databases. The specific syntax of SQL may vary a little from database to database, but the relevant concepts are mostly the same. However, there is a difference between knowing these concepts of SQL and actually being able to write sound, efficient, and proper SQL statements ensuring stability, reliability, and performance of databases.",
+
+        "JobResponsibility":"Help write and optimize in-application SQL statements. Ensure performance, security, and availability of databases. Prepare documentation and specifications. Handle common database procedures such as upgrade, backup, recovery, migration, etc.",
+        "EducationalRequirements":"Bachelor degree to complete any reputational university.",
+        "Experiences":"4+ Years in this field.",
+        "contactInformation":{"phone":"01750-788890","email":"hero@gmail.com"}
+    }
+    ,
+    {
+        "id":"06",
+        "CompanyLogo":"/img/creative.png",
+        "JobTitle":"MERN Programmer",
+        "CompanyName":"Creative It",
+        "jobNature":["On-time","Full Time"],
+        "Location":{"natinality":"Dhaka, Bangladesh","village":"Dhanmondi"},
+        "Salary":"50k-70k",
+        "JobDescription":"Proven experience as a Full Stack Developer or similar role. Experience developing desktop and mobile applications. Familiarity with common stacks. Knowledge of multiple front-end languages and libraries (e.g. HTML/ CSS, JavaScript, XML, jQuery). Knowledge of multiple back-end languages (e.g. C#, Java, Python) and JavaScript frameworks (e.g. Angular, React, Node.js). Familiarity with databases (e.g. MySQL, MongoDB), web servers (e.g. Apache), and UI/UX design.",
+
+        "JobResponsibility":"Design and develop web applications using the MERN stack. Collaborate with designers, project managers, and other developers to ensure project requirements are met. Write clean, efficient, and well-documented code. Optimize applications for maximum speed and scalability.",
+        "EducationalRequirements":"Bachelor degree to complete any reputational university.",
+        "Experiences":"1+ Years in this field.",
+        "contactInformation":{"phone":"01750-788677","email":"creative@gmail.com"}
     }
 ]

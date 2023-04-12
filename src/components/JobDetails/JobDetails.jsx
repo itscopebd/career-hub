@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { addToDb } from '../../../public/fakedb';
+import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
 
-const JobDetails = () => {
+const JobDetails = (props) => {
     const jobDetailsId = useParams();
     const jobDetails = useLoaderData();
     const [details, setDetails] = useState({});
@@ -27,6 +28,9 @@ const JobDetails = () => {
     
     }
     return (
+        <>
+
+<Breadcrumbs title={props}></Breadcrumbs>
         <div className='my-container flex py-10 gap-10'>
 
             <div className='w-8/12'>
@@ -63,6 +67,7 @@ const JobDetails = () => {
             </div>
             
         </div>
+        </>
     );
 };
 

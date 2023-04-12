@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        bread:`url('/img/Vector.png'), url('/img/Vector-1.png')`
+        bread:`url('/img/breadcrumb.png')`
       }
 
     },
